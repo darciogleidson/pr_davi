@@ -28,7 +28,7 @@ class AdminCompanyManagementTest extends TestCase
             ->assertOk()
             ->assertSee('<!DOCTYPE html>', false)
             ->assertSee('Acesso responsável | Guia de Empresas da Igreja')
-            ->assertSee('text-emerald-800');
+            ->assertSee('text-blue-800');
     }
 
     public function test_public_user_registration_is_not_available(): void
